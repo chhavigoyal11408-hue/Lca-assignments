@@ -1,0 +1,8 @@
+import re
+
+s = input("Enter a string: ")
+
+if re.fullmatch(r"[a-zA-Z0-9]+", s):
+    print("Valid string")
+else:
+    print("Invalid string")
