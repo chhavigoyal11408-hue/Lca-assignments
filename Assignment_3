@@ -1,0 +1,20 @@
+# Function to check whether a triangle is right-angled
+
+def check_right_triangle(a, b, c):
+    if a*a + b*b == c*c:
+        print("The triangle is a right-angled triangle")
+    elif a*a + c*c == b*b:
+        print("The triangle is a right-angled triangle")
+    elif b*b + c*c == a*a:
+        print("The triangle is a right-angled triangle")
+    else:
+        print("The triangle is not a right-angled triangle")
+
+
+# Taking input from the user
+a = int(input("Enter first side: "))
+b = int(input("Enter second side: "))
+c = int(input("Enter third side: "))
+
+# Function calling
+check_right_triangle(a, b, c)
