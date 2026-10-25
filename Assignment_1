@@ -1,0 +1,23 @@
+# Dictionary
+d = {"name": "ABC", "rollno": 34}
+print(d)
+
+d["age"] = 20       # Add
+print(d)
+
+d["name"] = "XYZ"   # Update
+print(d)
+
+d.pop("age")        # Remove
+print(d)
+
+
+# Tuple
+t = (10, 20, 30, 40)
+print(t)
+
+t = t + (50,)      # Add
+print(t)
+
+t = t[:2] + t[3:]   #Remove
+print(t)
